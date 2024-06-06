@@ -1,0 +1,70 @@
+body {
+    background-color: #DBF227;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #042940;
+}
+
+h2 {
+    color: #042940;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    border-top: 3px solid #042940;
+}
+
+.form-label {
+    color: #042940;
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 2px solid #042940;
+    transition: all 0.6s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #9FC131;
+    box-shadow: 0 0 10px rgba(159, 193, 49, 0.5);
+}
+
+.text-danger {
+    color: #D9534F;
+}
+
+.btn-primary {
+    background-color: #005C53;
+    border-color: #005C53;
+    transition: background-color 0.6s ease, border-color 0.6s ease;
+}
+
+.btn-primary:hover {
+    background-color: #042940;
+    border-color: #042940;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder, select::placeholder {
+    color: #9FC131;
+}
+
+#input-correo, #input-contraseña, #input-confirmacion, 
+#input-direccion, #input-telefono, #input-url, #input-intereses {
+    padding: 0.75rem;
+}
+
+#select-comuna {
+    padding: 0.75rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+}
